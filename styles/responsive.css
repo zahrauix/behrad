@@ -441,6 +441,10 @@
 
 @media screen and (max-width: 400px){
 
+    header .brand-logo {
+        width: 18%;
+    }
+
 
     #base-story .base-video::before {
         display: none;
