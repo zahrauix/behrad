@@ -383,7 +383,7 @@
 
     
     #about {
-        padding-top: 227px ;
+        padding-top: 22px ;
     }
 
     .container {
@@ -552,10 +552,7 @@
     #partner ul{
         padding-bottom: 20%;
     }
-    #partner ul li a img {
-        height: 27%;
-      
-    }
+   
     #partner ul li{
         width: 100%;
        
@@ -623,7 +620,7 @@
     }
 
     #about .section-title {
-        margin-top: 253px;
+        margin-top:35px;
     }
 
     #project .section-title button {
@@ -641,6 +638,8 @@
         width: 130px;
         height: 40px;
         font-family: 'IRANSans';
+        justify-content: center;
+        align-items: center;
       
         font-size: 12px;
         margin-top: 0px;
@@ -668,4 +667,17 @@
     #about .section-title p {
        font-size: 14px;
     }
+
+    #partner ul li a img {
+        height: 25%;
+    }
 }
+
+
+
+@media screen and (max-width: 320px){
+    
+}
+
+
+
