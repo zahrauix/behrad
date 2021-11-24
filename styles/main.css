@@ -520,7 +520,7 @@ header .brand-logo img{
   border: none;
   width: 450px;
   height: 40px;
-  font-family: 'vazir';
+  font-family: 'IRANSans';
   background-color: transparent;
   color: #000;
   font-size: 16px;
@@ -563,7 +563,7 @@ header .brand-logo img{
 }
 
 #about .about-team .about-team-item{
-  width: 32.33%;
+  width: 100%;
   position: relative;
   overflow: hidden;
   height: 350px;
@@ -571,51 +571,8 @@ header .brand-logo img{
 
 #about .about-team .about-team-item img{
   width: 100%;
-  height: 350px;
-}
-
-
-#about .about-team .about-team-item .about-slide{
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: -100%;
-  height: 100%;
-  width: 100%;
-  background-color: #faa000;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  opacity: 0;
-  transition:all .4s ease-in ;
-  -webkit-transition:all .4s ease-in ;
-  -moz-transition:all .4s ease-in ;
-  -ms-transition:all .4s ease-in ;
-  -o-transition:all .4s ease-in ;
-}
-#about .about-team .about-team-item:hover .about-slide{
-  bottom: 0;
-  opacity: 1;
-}
-
-#about .about-team .about-team-item .about-slide ul{
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-}
-
-#about .about-team .about-team-item .about-slide ul li svg{
- font-size: 20px;
- color: #fff; 
-}
-
-#about .about-team .about-team-item .about-slide ul li a:hover svg{
-  color: #3d3731;
-}
-
-#about .about-team .about-team-item .about-slide h4{
-  margin: 15px 0;
+  height: 320px;
+  padding-right:10% ;
 }
 
 /* beautiText */
@@ -677,7 +634,7 @@ header .brand-logo img{
   border: none;
   width: 200px;
   height: 40px;
-  font-family: 'vazir';
+  font-family: 'IRANSans';
   background-color: transparent;
   color: #000;
   font-size: 16px;
@@ -784,7 +741,7 @@ header .brand-logo img{
   border: none;
   width: 200px;
   height: 40px;
-  font-family: 'vazir';
+  font-family: 'IRANSans';
   background-color: transparent;
   color: #fff;
   font-size: 16px;
